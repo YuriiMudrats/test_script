@@ -1,0 +1,54 @@
+
+
+.error-main-container {
+   position: absolute;
+   right: 20px;
+   top: 296px;
+}
+.error-block{   
+}
+.center-cont{
+    text-align: center
+}
+.some-log{
+    width: 134px;
+    height: 134px;
+    background-color: rgba(0, 95, 175, 1);
+    margin:0
+}
+.error-text-first{
+    font-family: "Rubik", sans-serif;
+    color: rgba(0, 95, 175, 1);
+    font-size: 61px;
+    margin:0
+}
+.error-text-second{
+    font-family: "Rubik", sans-serif;
+    color: #404041;
+    font-size: 41px;
+    margin:0
+}
+.error-text-third{
+    font-family: "Rubik", sans-serif;
+    color: #404041;
+    font-size: 26px;
+    margin:0
+}
+.back-button {
+    background-color: rgba(0, 95, 175, 1);
+    border-radius: 10px;
+    color: white;
+    padding: 11px 36px;
+    text-decoration: none;    
+    cursor: pointer;
+    width: 143px;
+    height: 47px;
+    white-space: nowrap;
+    font-family: "Rubik", sans-serif;  
+    font-size: 15px  
+}
+.button-text{
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
