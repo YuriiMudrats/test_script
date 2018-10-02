@@ -1,11 +1,12 @@
 
 
 .error-main-container {
-   position: absolute;
-   right: 20px;
-   top: 296px;
+  display:flex;
+  justify-content: center
 }
-.error-block{   
+.error-block{ 
+   position: absolute;
+   top: 100px;
 }
 .center-cont{
     text-align: center
@@ -51,4 +52,8 @@
     font-family: "Rubik", sans-serif;
     font-weight: 100;
     font-size: 20px;
+}
+.center-container{
+    display:flex;
+    justify-content: center;
 }

@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import NotAuth from './401NotAuthorized';
+import PNF from './404PageNotFound'
+import ISE from './500IntervalServerError'
 import './App.css';
 
 class App extends Component {
@@ -40,18 +43,22 @@ class App extends Component {
   render() {
     const {email, mobile, error}= this.state
     return (
-      <div className="App">
-       <div className='input-container'>
-       <div>
-       <label>Email :<input onBlur={this.validEmail} name='email' type='text' value={email} placeholder='pls send email' onChange={(e)=>this.onChange(e)}/></label>
-       {error&&error.email? <p>You have wrong number</p>:null}
-       </div>
-       <div>
-       <label>Mobile phone :<input onBlur={this.validMobPhone} name='mobile' type='text' value={mobile} placeholder='pls send mobile phone' onChange={(e)=>this.onChange(e)}/></label>
-       {error&&error.mobile? <p>You have wrong email</p>:null}
-       </div>
-       </div>
-      </div>
+      // <div className="App">
+      //  <div className='input-container'>
+       
+      //  <div>
+      //  <label>Email :<input onBlur={this.validEmail} name='email' type='text' value={email} placeholder='pls send email' onChange={(e)=>this.onChange(e)}/></label>
+      //  {error&&error.email? <p>You have wrong number</p>:null}
+      //  </div>
+      //  <div>
+      //  <label>Mobile phone :<input onBlur={this.validMobPhone} name='mobile' type='text' value={mobile} placeholder='pls send mobile phone' onChange={(e)=>this.onChange(e)}/></label>
+      //  {error&&error.mobile? <p>You have wrong email</p>:null}
+      //  </div>
+      //  </div>
+      // </div>
+      <div>
+        <ISE/>
+      </div>  
     );
   }
 }
